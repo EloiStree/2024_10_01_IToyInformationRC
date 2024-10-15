@@ -1,0 +1,23 @@
+
+{                                                                                
+  "name": "be.elab.toyrccredit",                              
+  "displayName": "Toy RC Credit and Source",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "Allows to credit and link source to a toy in game if the player want to buy or find it in real life.",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{},     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://github.com/EloiStree/2024_10_01_IToyInformationRC.git",
+"footprint":"",
+"revision":""},     
+  "category": "Script"                   
+} 

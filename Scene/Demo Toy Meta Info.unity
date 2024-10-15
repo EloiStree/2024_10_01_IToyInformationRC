@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -42,8 +42,8 @@ RenderSettings:
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
-  m_GIWorkflowMode: 1
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -66,9 +66,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
@@ -96,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -153,6 +150,109 @@ Transform:
   m_Children: []
   m_Father: {fileID: 246675855}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &15003048
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 15003049}
+  - component: {fileID: 15003054}
+  - component: {fileID: 15003053}
+  - component: {fileID: 15003052}
+  - component: {fileID: 15003051}
+  - component: {fileID: 15003050}
+  m_Layer: 0
+  m_Name: Source Luke Maximo V2 Drone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &15003049
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15003048}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1707438489}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &15003050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15003048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56723ba6160c19e4791a1a8b24ad1c0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_urlToOpen: https://youtu.be/wThmg8Ezm9w
+--- !u!114 &15003051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15003048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69c5cae592a47754c9bece7959bf34f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_urlToOpen: https://github.com/eloistree
+  m_fullName: Eloi Stree
+  m_alias: Eloi Teaching
+--- !u!114 &15003052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15003048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 617ef12c21bf7f94ba11df2249f1057a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_urlToOpen: 
+--- !u!114 &15003053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15003048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1d67748f08b4bf4bbd958e56d5e9b03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_urlToOpen: 
+--- !u!114 &15003054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15003048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7f407b14057c104daa203e1cb34d524, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_urlToOpen: https://github.com/EloiStree/eLabRC_ToysInGame/tree/main/Toys/LukeMaximoV2
 --- !u!1 &33210403
 GameObject:
   m_ObjectHideFlags: 0
@@ -184,6 +284,96 @@ Transform:
   m_Children: []
   m_Father: {fileID: 246675855}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &114534959
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 114534960}
+  - component: {fileID: 114534961}
+  m_Layer: 0
+  m_Name: Submarine Blue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &114534960
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114534959}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1409538830}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114534961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114534959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4eb6d424071a41499829d0b2067c2df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_urlToOpen: https://github.com/EloiStree/eLabRC_ToysInGame/tree/main/Gamepad/BlueSubmarine
+--- !u!1 &208911842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 208911843}
+  - component: {fileID: 208911844}
+  m_Layer: 0
+  m_Name: MicroBit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &208911843
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208911842}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1409538830}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &208911844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208911842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4eb6d424071a41499829d0b2067c2df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_urlToOpen: https://github.com/EloiStree/eLabRC_ToysInGame/tree/main/Gamepad/microbit
 --- !u!1 &209816180
 GameObject:
   m_ObjectHideFlags: 0
@@ -210,9 +400,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 209816180}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 1
-  m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -262,8 +451,12 @@ Light:
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
 --- !u!4 &209816182
 Transform:
   m_ObjectHideFlags: 0
@@ -337,6 +530,51 @@ Transform:
   - {fileID: 33210404}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &273641508
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 273641509}
+  - component: {fileID: 273641510}
+  m_Layer: 0
+  m_Name: General XR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &273641509
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273641508}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1409538830}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &273641510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273641508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4eb6d424071a41499829d0b2067c2df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_urlToOpen: https://github.com/EloiStree/eLabRC_ToysInGame/tree/main/Gamepad/GeneralXR
 --- !u!1 &293614856
 GameObject:
   m_ObjectHideFlags: 0
@@ -351,7 +589,7 @@ GameObject:
   - component: {fileID: 293614859}
   - component: {fileID: 293614858}
   m_Layer: 0
-  m_Name: Back Horney Helicopter
+  m_Name: Source Black Hornet Helicopter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -425,7 +663,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f407b14057c104daa203e1cb34d524, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_urlToOpen: 
+  m_urlToOpen: https://github.com/EloiStree/eLabRC_ToysInGame/blob/main/Toys/BlackHornet/ReadMe.md
+--- !u!1 &469869724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 469869725}
+  - component: {fileID: 469869726}
+  m_Layer: 0
+  m_Name: Black Array Submarine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &469869725
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469869724}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1409538830}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &469869726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469869724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4eb6d424071a41499829d0b2067c2df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_urlToOpen: https://github.com/EloiStree/eLabRC_ToysInGame/tree/main/Gamepad/BlackBasicSubmarine
 --- !u!1 &488239313
 GameObject:
   m_ObjectHideFlags: 0
@@ -462,7 +745,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -518,6 +801,186 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &497504379
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 497504380}
+  - component: {fileID: 497504381}
+  m_Layer: 0
+  m_Name: Xbox 360
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &497504380
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497504379}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1409538830}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &497504381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497504379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4eb6d424071a41499829d0b2067c2df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_urlToOpen: https://github.com/EloiStree/eLabRC_ToysInGame/tree/main/Gamepad/Xbox360
+--- !u!1 &661083575
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 661083576}
+  - component: {fileID: 661083577}
+  m_Layer: 0
+  m_Name: FlySky
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &661083576
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661083575}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1409538830}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &661083577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661083575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4eb6d424071a41499829d0b2067c2df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_urlToOpen: https://github.com/EloiStree/eLabRC_ToysInGame/tree/main/Gamepad/microbit
+--- !u!1 &1179982059
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1179982060}
+  - component: {fileID: 1179982061}
+  m_Layer: 0
+  m_Name: Car Wheel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1179982060
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179982059}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1409538830}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1179982061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179982059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4eb6d424071a41499829d0b2067c2df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_urlToOpen: https://github.com/EloiStree/eLabRC_ToysInGame/tree/main/Gamepad/CarWheel
+--- !u!1 &1279443531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1279443532}
+  - component: {fileID: 1279443533}
+  m_Layer: 0
+  m_Name: Nintendo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1279443532
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279443531}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1409538830}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1279443533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279443531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4eb6d424071a41499829d0b2067c2df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_urlToOpen: https://github.com/EloiStree/eLabRC_ToysInGame/tree/main/Gamepad/Nintendo
 --- !u!1 &1406088347
 GameObject:
   m_ObjectHideFlags: 0
@@ -532,7 +995,7 @@ GameObject:
   - component: {fileID: 1406088350}
   - component: {fileID: 1406088349}
   m_Layer: 0
-  m_Name: DIY Perks Submarine
+  m_Name: Source DIY Perks Submarine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -606,7 +1069,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f407b14057c104daa203e1cb34d524, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_urlToOpen: https://github.com/EloiStree/eLabRC/blob/main/Toys/DIY_Perks/ReadMe.md
+  m_urlToOpen: https://github.com/EloiStree/eLabRC_ToysInGame/tree/main/Toys/BrickSubmarine
 --- !u!1 &1406955135
 GameObject:
   m_ObjectHideFlags: 0
@@ -621,7 +1084,7 @@ GameObject:
   - component: {fileID: 1406955138}
   - component: {fileID: 1406955137}
   m_Layer: 0
-  m_Name: Tello
+  m_Name: Source Tello
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -669,7 +1132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 617ef12c21bf7f94ba11df2249f1057a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_urlToOpen: 
+  m_urlToOpen: https://sketchfab.com/search?features=downloadable&q=tello&type=models
 --- !u!114 &1406955139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -695,7 +1158,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f407b14057c104daa203e1cb34d524, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_urlToOpen: https://sketchfab.com/search?features=downloadable&q=tello&type=models
+  m_urlToOpen: https://github.com/EloiStree/eLabRC_ToysInGame/tree/main/Toys/Tello
+--- !u!1 &1409538829
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1409538830}
+  m_Layer: 0
+  m_Name: Toy Gamepad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1409538830
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409538829}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.391433, y: 0.7728908, z: 0.44068253}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 661083576}
+  - {fileID: 1279443532}
+  - {fileID: 114534960}
+  - {fileID: 497504380}
+  - {fileID: 273641509}
+  - {fileID: 1179982060}
+  - {fileID: 208911843}
+  - {fileID: 469869725}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1582723371
 GameObject:
   m_ObjectHideFlags: 0
@@ -711,7 +1213,7 @@ GameObject:
   - component: {fileID: 1582723373}
   - component: {fileID: 1582723377}
   m_Layer: 0
-  m_Name: Bricks Lego Submarine
+  m_Name: Source Bricks Lego Submarine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -785,7 +1287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f407b14057c104daa203e1cb34d524, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_urlToOpen: https://github.com/EloiStree/eLabRC/tree/main/Toys/DIY_Bricks
+  m_urlToOpen: https://github.com/EloiStree/eLabRC_ToysInGame/tree/main/Toys/BrickSubmarine
 --- !u!114 &1582723377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -830,6 +1332,7 @@ Transform:
   m_Children:
   - {fileID: 1406955136}
   - {fileID: 2040395324}
+  - {fileID: 15003049}
   - {fileID: 1764075107}
   - {fileID: 1582723372}
   - {fileID: 1406088348}
@@ -850,7 +1353,7 @@ GameObject:
   - component: {fileID: 1764075109}
   - component: {fileID: 1764075108}
   m_Layer: 0
-  m_Name: 3D Benchy Boat
+  m_Name: Source 3D Benchy Boat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -924,7 +1427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f407b14057c104daa203e1cb34d524, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_urlToOpen: 
+  m_urlToOpen: https://github.com/EloiStree/eLabRC_ToysInGame/tree/main/Toys/3DBenchy
 --- !u!1 &1957402890
 GameObject:
   m_ObjectHideFlags: 0
@@ -970,7 +1473,7 @@ GameObject:
   - component: {fileID: 2040395326}
   - component: {fileID: 2040395325}
   m_Layer: 0
-  m_Name: Flat Drone
+  m_Name: Source Flat Drone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1044,7 +1547,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f407b14057c104daa203e1cb34d524, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_urlToOpen: 
+  m_urlToOpen: https://github.com/EloiStree/eLabRC_ToysInGame/tree/main/Toys/FlatDrone
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1052,3 +1555,4 @@ SceneRoots:
   - {fileID: 488239316}
   - {fileID: 209816182}
   - {fileID: 246675855}
+  - {fileID: 1409538830}
